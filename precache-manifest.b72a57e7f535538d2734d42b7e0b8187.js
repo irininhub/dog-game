@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49dc5174fec4a4daf29b8a13922cec55",
+    "revision": "5ab15a606146f7068897a232155ddad1",
     "url": "/dog-game/index.html"
   },
   {
-    "revision": "ff8a90a333a3fee4065e",
-    "url": "/dog-game/static/css/main.cddde3a9.chunk.css"
+    "revision": "cb9721f3575ffd95274f",
+    "url": "/dog-game/static/css/main.b6448548.chunk.css"
   },
   {
     "revision": "e7918ac36c26af9b1885",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dog-game/static/js/2.a5719e73.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff8a90a333a3fee4065e",
+    "revision": "cb9721f3575ffd95274f",
     "url": "/dog-game/static/js/main.3bf1ec8c.chunk.js"
   },
   {
