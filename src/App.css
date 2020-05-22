@@ -2,7 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
 
 .counter {
     text-align: center;
@@ -68,3 +70,19 @@
     color: #feefea;
     transform: scale(0.9, 0.9);
 }
+@media screen and (max-width: 1180px) {
+    .button {
+        margin-left: 100px;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 645px) {
+    .button {
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    .wrapper{
+        margin-top: 0;
+    }
+}
+
