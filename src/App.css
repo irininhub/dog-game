@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.counter {
+    text-align: center;
+    padding-left: 8px;
+    margin-top: 20px;
+    font-size: 36px;
+    color: #424141;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.counter:hover {
+    transition: 500ms;
+    transform: scale(1.5, 1.5);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.wrapper {
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto 10px auto;
 }
 
-.App-link {
-  color: #61dafb;
+.name {
+    font: bold 50px Arial;
+    padding-right: 9px;
+    text-align: center;
+    margin: 50px 0 50px;
+    color: #fff;
+    text-shadow: 1px 1px #61b4de, 2px 2px #61b4de, 3px 3px #61b4de, 4px 4px #61b4de, 5px 5px #61b4de,
+    5px 5px #91c467, 6px 6px #91c467, 7px 7px #91c467, 8px 8px #91c467, 9px 9px #91c467,
+    9px 9px #f3a14b, 10px 10px #f3a14b, 11px 11px #f3a14b, 12px 12px #f3a14b, 13px 13px #f3a14b,
+    13px 13px #e84c50, 14px 14px #e84c50, 15px 15px #e84c50, 16px 16px #e84c50, 17px 17px #e84c50,
+    17px 17px #4e5965, 18px 18px #4e5965, 19px 19px #4e5965, 20px 20px #4e5965, 21px 21px #4e5965;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dogsField {
+    padding-left: 8px;
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #feefea;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: -300px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1px;
+    outline: none;
+    transition: 500ms;
+}
+
+
+.button:active {
+    transition: 500ms;
+    background-color: #61b4de;
+    color: #feefea;
+    transform: scale(0.9, 0.9);
 }
