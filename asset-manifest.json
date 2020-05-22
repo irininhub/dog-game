@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dog-game/static/css/main.63f0129e.chunk.css",
+    "main.css": "/dog-game/static/css/main.cddde3a9.chunk.css",
     "main.js": "/dog-game/static/js/main.3bf1ec8c.chunk.js",
     "main.js.map": "/dog-game/static/js/main.3bf1ec8c.chunk.js.map",
     "runtime-main.js": "/dog-game/static/js/runtime-main.05317e42.js",
@@ -8,16 +8,16 @@
     "static/js/2.a5719e73.chunk.js": "/dog-game/static/js/2.a5719e73.chunk.js",
     "static/js/2.a5719e73.chunk.js.map": "/dog-game/static/js/2.a5719e73.chunk.js.map",
     "index.html": "/dog-game/index.html",
-    "precache-manifest.fdc505babf31e4089faf7c720d5aef93.js": "/dog-game/precache-manifest.fdc505babf31e4089faf7c720d5aef93.js",
+    "precache-manifest.97ee5fbae6a16236cf541fa5a23f68bb.js": "/dog-game/precache-manifest.97ee5fbae6a16236cf541fa5a23f68bb.js",
     "service-worker.js": "/dog-game/service-worker.js",
-    "static/css/main.63f0129e.chunk.css.map": "/dog-game/static/css/main.63f0129e.chunk.css.map",
+    "static/css/main.cddde3a9.chunk.css.map": "/dog-game/static/css/main.cddde3a9.chunk.css.map",
     "static/js/2.a5719e73.chunk.js.LICENSE.txt": "/dog-game/static/js/2.a5719e73.chunk.js.LICENSE.txt",
     "static/media/dog.mp3": "/dog-game/static/media/dog.75fa68d4.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.05317e42.js",
     "static/js/2.a5719e73.chunk.js",
-    "static/css/main.63f0129e.chunk.css",
+    "static/css/main.cddde3a9.chunk.css",
     "static/js/main.3bf1ec8c.chunk.js"
   ]
 }
